@@ -23,6 +23,7 @@ namespace sgSchedule
             alertPannel.SetActive(false);
         }
 #endregion
+        public static Action WorkerRegisterPannelAction;
         static string path;
         public static WorkerList currentWorkerList;
         // Start is called before the first frame update

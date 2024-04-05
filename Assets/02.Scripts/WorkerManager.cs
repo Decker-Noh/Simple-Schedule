@@ -19,21 +19,13 @@ public class WorkerManager : MonoBehaviour
     public TMP_InputField holi;
     public Toggle newcomer;
     public Button btn;
-
-    // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
-        
+        Main.WorkerRegisterPannelAction += FormInit;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
     public void workerRegist()
     {
-        Debug.Log("하이하이");
         if (workerName.text.Length == 0)
         {
             Main.AlertAction("이름을 입력하세요");
