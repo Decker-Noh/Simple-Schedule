@@ -46,7 +46,7 @@ ExportedObj/
 *.mdb
 *.opendb
 *.VC.db
-
+*.ttf
 # Unity3D generated meta files
 # *.pidb.meta
 # *.pdb.meta
@@ -69,6 +69,7 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 # /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+Assets/04.Font/
 
 # Modeling tool generaated files
 *.DS_Store
