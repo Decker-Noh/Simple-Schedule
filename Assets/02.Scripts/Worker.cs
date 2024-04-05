@@ -3,7 +3,7 @@ using System;
 namespace sgSchedule
 {
     [Serializable]
-    class Worker
+    public class Worker
     {
         public string name;
         public List<int> weekScore = new List<int>()
@@ -18,6 +18,15 @@ namespace sgSchedule
             0,//"holi"
             0//"annual
         };
+        public List<string> mon = new List<string>();
+        public List<string> tues = new List<string>();
+        public List<string> wednes = new List<string>();
+        public List<string> thurs = new List<string>();
+        public List<string> fri = new List<string>();
+        public List<string> satur = new List<string>();
+        public List<string> sun = new List<string>();
+        public List<string> holi = new List<string>();
+
         public List<string> vacationData = new List<string>();
         public string _name
         {
@@ -93,7 +102,7 @@ namespace sgSchedule
         }
     }
     [Serializable]
-    class WorkerList
+    public class WorkerList
     {
         public List<Worker> workerList = new List<Worker>();
     }

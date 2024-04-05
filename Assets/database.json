@@ -1,0 +1,73 @@
+{
+    "workerList": [
+        {
+            "name": "",
+            "weekScore": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "mon": [],
+            "tues": [],
+            "wednes": [],
+            "thurs": [],
+            "fri": [],
+            "satur": [],
+            "sun": [],
+            "holi": [],
+            "vacationData": []
+        },
+        {
+            "name": "12",
+            "weekScore": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "mon": [],
+            "tues": [],
+            "wednes": [],
+            "thurs": [],
+            "fri": [],
+            "satur": [],
+            "sun": [],
+            "holi": [],
+            "vacationData": []
+        },
+        {
+            "name": "12",
+            "weekScore": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "mon": [],
+            "tues": [],
+            "wednes": [],
+            "thurs": [],
+            "fri": [],
+            "satur": [],
+            "sun": [],
+            "holi": [],
+            "vacationData": []
+        }
+    ]
+}
