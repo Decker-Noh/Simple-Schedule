@@ -24,6 +24,7 @@ namespace sgSchedule
         }
 #endregion
         public static Action WorkerRegisterPannelAction;
+        public static Action WorkerListPannelAction;
         static string path;
         public static WorkerList currentWorkerList;
         // Start is called before the first frame update

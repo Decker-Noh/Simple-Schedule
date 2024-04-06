@@ -23,6 +23,9 @@ public class PannelManager : MonoBehaviour
             case 2://WorkerRegister
                 Main.WorkerRegisterPannelAction.Invoke();
                 break;
+            case 3://WorkerRegister
+                Main.WorkerListPannelAction.Invoke();
+                break;
 
         }
     }
