@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 7530309495794392365}
   - component: {fileID: 323839099567342568}
   m_Layer: 5
-  m_Name: WorkerList
+  m_Name: WorkerBtn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -121,7 +121,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 8282050225236163523}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 323839099567342568}
+        m_TargetAssemblyTypeName: WorkerData, Assembly-CSharp
+        m_MethodName: ClickWorkerBtn
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &323839099567342568
 MonoBehaviour:
   m_ObjectHideFlags: 0

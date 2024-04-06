@@ -34,12 +34,14 @@ public class WorkerManager : MonoBehaviour
 
         Worker worker = new Worker();
         worker._name = workerName.text;
-        if (newcomer)
+        if (newcomer.isOn)
         {
+            Debug.Log("신입");
             //전 근무자들의 평균을 구하는 로직이 들어가야함.
         }
         else
         {
+            Debug.Log("신입아님");
             worker.SetWeekScore("mon", Int32.Parse(mon.text));
             worker.SetWeekScore("tues", Int32.Parse(tues.text));
             worker.SetWeekScore("wednes", Int32.Parse(wednes.text));
@@ -51,7 +53,11 @@ public class WorkerManager : MonoBehaviour
             worker.SetWeekScore("annual", Int32.Parse(workerAnnual.text));
         }
         Main.currentWorkerList.workerList.Add(worker);
+        Debug.Log("작성 연차 : " + workerAnnual.text);
+        Debug.Log("변경 연차 : " + Int32.Parse(workerAnnual.text));
+        Debug.Log("순수 연차 : " + worker.weekScore[8]);
 
+        Debug.Log("등록 연차 : " + worker.GetWeekScore("annual"));
         Main.SaveDataFile();
         FormInit();
         DisableSubmitBtn();

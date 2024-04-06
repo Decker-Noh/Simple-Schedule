@@ -6,8 +6,6 @@ public class PannelManager : MonoBehaviour
 {
     public GameObject[] pannelList;
 
-
-
     public void PannelControl(int num)
     {
         for (int i=0; i<pannelList.Length; i++)
@@ -25,6 +23,8 @@ public class PannelManager : MonoBehaviour
                 break;
             case 3://WorkerRegister
                 Main.WorkerListPannelAction.Invoke();
+                break;
+            case 4://WorkerDetail
                 break;
 
         }

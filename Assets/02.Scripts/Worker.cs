@@ -39,36 +39,36 @@ namespace sgSchedule
                 name = value;
             }
         }
-        public void SetWeekScore(string day, int value)
+        public void SetWeekScore(string day, int num)
         {
             switch(day)
             {
                 case "mon":
-                    weekScore[0] = value;
+                    weekScore[0] = num;
                     break;
                 case "tues":
-                    weekScore[1] = value;
+                    weekScore[1] = num;
                     break;
                 case "wednes":
-                    weekScore[2] = value;
+                    weekScore[2] = num;
                     break;
                 case "thurs":
-                    weekScore[3] = value;
+                    weekScore[3] = num;
                     break;
                 case "fri":
-                    weekScore[4] = value;
+                    weekScore[4] = num;
                     break;
                 case "satur":
-                    weekScore[5] = value;
+                    weekScore[5] = num;
                     break;
                 case "sun":
-                    weekScore[6] = value;
+                    weekScore[6] = num;
                     break;
                 case "holi":
-                    weekScore[7] = value;
+                    weekScore[7] = num;
                     break;
                 case "annual":
-                    weekScore[8] = value;
+                    weekScore[8] = num;
                     break;
                 default:
                     break;
