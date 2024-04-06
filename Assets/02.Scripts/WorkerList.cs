@@ -13,11 +13,6 @@ public class WorkerList : MonoBehaviour
         Main.WorkerListPannelAction += InitWorkerList;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
     void InitWorkerList()
     {
         foreach (Transform child in Contents.transform)

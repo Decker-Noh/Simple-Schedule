@@ -46,22 +46,22 @@ public class CalendarController : MonoBehaviour
     void CreateCalendar()
     {
         DateTime firstDay = _dateTime.AddDays(-(_dateTime.Day - 1));
-        int index = GetDays(firstDay.DayOfWeek);
+        int index = GetDays(firstDay.DayOfWeek)-1;
 
         int date = 0;
         for (int i = 0; i < _totalDateNum; i++)
         {
             Text label = _dateItems[i].GetComponentInChildren<Text>();
             _dateItems[i].SetActive(false);
-
             if (i >= index)
             {
                 DateTime thatDay = firstDay.AddDays(date);
                 if (thatDay.Month == firstDay.Month)
                 {
                     _dateItems[i].SetActive(true);
-
                     label.text = (date + 1).ToString();
+                    ScheduleHolidayItem item = label.transform.parent.GetComponent<ScheduleHolidayItem>();
+                    item._myDate = thatDay;
                     date++;
                 }
             }
