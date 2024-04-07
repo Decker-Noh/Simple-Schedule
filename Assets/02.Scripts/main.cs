@@ -137,6 +137,10 @@ namespace sgSchedule
                 currentWorkerList.workerList[i] = WorkerLastScoreCalculate(currentWorkerList.workerList[i]);
             }
         }
+        public void QuitGame()
+        {
+            Application.Quit();
+        }
         
     }
 }
