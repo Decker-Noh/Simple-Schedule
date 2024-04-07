@@ -7,20 +7,18 @@ using sgSchedule;
 using System.Linq;
 public class MonthController : MonoBehaviour
 {
-
+    public ScheduleList scheduleList;
     public Text _yearNumText;
     public Text _monthNumText;
 
     private DateTime _dateTime;
 
 
-    void Start()
+    void OnEnable()
     {
        
         _dateTime = DateTime.Now;
         CreateCalendar();
-        CreateSchedule();
-        // test();
     }
 
     public void CreateSchedule()
@@ -166,42 +164,34 @@ public class MonthController : MonoBehaviour
                         case 0:
                             Main.currentWorkerList.workerList[w].mon.Add(dayDataList[i].day);
                             Main.currentWorkerList.workerList[w].weekLastScore[0] +=1;
-                            Debug.Log("월 : " + Main.currentWorkerList.workerList[w].weekLastScore[0]);
                             break;
                         case 1:
                             Main.currentWorkerList.workerList[w].tues.Add(dayDataList[i].day);
                             Main.currentWorkerList.workerList[w].weekLastScore[1] +=1;
-                            Debug.Log("화 : " + Main.currentWorkerList.workerList[w].weekLastScore[1]);
                             break;
                         case 2:
                             Main.currentWorkerList.workerList[w].wednes.Add(dayDataList[i].day);
                             Main.currentWorkerList.workerList[w].weekLastScore[2] +=1;
-                            Debug.Log("수 : " + Main.currentWorkerList.workerList[w].weekLastScore[2]);
                             break;
                         case 3:
                             Main.currentWorkerList.workerList[w].thurs.Add(dayDataList[i].day);
                             Main.currentWorkerList.workerList[w].weekLastScore[3] +=1;
-                            Debug.Log("목 : " + Main.currentWorkerList.workerList[w].weekLastScore[3]);
                             break;
                         case 4:
                             Main.currentWorkerList.workerList[w].fri.Add(dayDataList[i].day);
                             Main.currentWorkerList.workerList[w].weekLastScore[4] +=1;
-                            Debug.Log("금 : " + Main.currentWorkerList.workerList[w].weekLastScore[4]);
                             break;
                         case 5:
                             Main.currentWorkerList.workerList[w].satur.Add(dayDataList[i].day);
                             Main.currentWorkerList.workerList[w].weekLastScore[5] +=1;
-                            Debug.Log("토 : " + Main.currentWorkerList.workerList[w].weekLastScore[5]);
                             break;
                         case 6:
                             Main.currentWorkerList.workerList[w].sun.Add(dayDataList[i].day);
                             Main.currentWorkerList.workerList[w].weekLastScore[6] +=1;
-                            Debug.Log("일 : " + Main.currentWorkerList.workerList[w].weekLastScore[6]);
                             break;
                         case 7:
                             Main.currentWorkerList.workerList[w].holi.Add(dayDataList[i].day);
                             Main.currentWorkerList.workerList[w].weekLastScore[7] +=1;
-                            Debug.Log("공휴 : " + Main.currentWorkerList.workerList[w].weekLastScore[7]);
                             break;
                     }
                     break;
@@ -214,23 +204,7 @@ public class MonthController : MonoBehaviour
         string schedule22 = JsonUtility.ToJson(Main.currentSchedule);
         Debug.Log("근무표 나왔어요 : " + schedule22);
         Main.SaveDataFile();
-    }
-    void test()
-    {
-        // WorkerList 인스턴스 생성
-            List<Worker> workerList1 = new List<Worker>();
-            // workerList 초기화 (예시)
-            workerList1.Add(new Worker() { name = "Worker1", weekLastScore = new List<int> { 3, 2, 4, 1 } });
-            workerList1.Add(new Worker() { name = "Worker2", weekLastScore = new List<int> { 2, 5, 1, 3 } });
-            workerList1.Add(new Worker() { name = "Worker3", weekLastScore = new List<int> { 1, 4, 3, 2 } });
-
-            // weekLastScore의 첫 번째 int 값을 기준으로 오름차순 정렬
-            var sortedWorkers = workerList1.OrderBy(worker => worker.weekLastScore[0]).ToList();
-
-            for (int i=0; i<sortedWorkers.Count; i++)
-            {
-                Debug.Log("일꾼 순서 : " + sortedWorkers[i].name);
-            }
+        scheduleList.InitWorkerList();
     }
 
     void CreateCalendar()
