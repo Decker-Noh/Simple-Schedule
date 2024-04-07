@@ -52,6 +52,7 @@ public class CalendarController : MonoBehaviour
         for (int i = 0; i < _totalDateNum; i++)
         {
             Text label = _dateItems[i].GetComponentInChildren<Text>();
+            label.color = Color.white;
             _dateItems[i].SetActive(false);
             if (i >= index)
             {
