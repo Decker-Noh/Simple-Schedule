@@ -44,6 +44,7 @@ namespace sgSchedule
             LoadDataFile();
 
             AlertAction += AlertFunc;
+            // InitWorkerData();
         }
         public void LoadDataFile()
         {
@@ -63,21 +64,9 @@ namespace sgSchedule
             }
             currentWorkerList = saveData;
             currentSchedule = saveSchedule;
-
         }
         public static void SaveDataFile()
         {
-            // WorkerList saveData = new WorkerList();
-
-            // Worker newWorker = new Worker();
-            // newWorker._name = "순건";
-            // newWorker.SetWeekScore("mon", 3);
-            // DateTime date = new DateTime(2021,2,2);
-            // string sDate = date.ToString("yyyy-MM-dd");
-            // newWorker.vacationData.Add(sDate);
-            // date = Convert.ToDateTime(sDate);
-            
-            // saveData.workerList.Add(newWorker);
             
             string json = JsonUtility.ToJson(currentWorkerList, true);
 
@@ -87,8 +76,67 @@ namespace sgSchedule
             Debug.Log(json);
             File.WriteAllText(pathScehdule, json);
         }
-        
-        
+        public void InitWorkerData()
+        {
+            WorkerList saveData = new WorkerList();
+            string json = JsonUtility.ToJson(saveData, true);
+            File.WriteAllText(path, json);
 
+  
+        }
+        public static Worker WorkerLastScoreCalculate(Worker worker)
+        {
+            int total;
+            for (int i=0; i<8; i++)
+            {
+                total = 0;
+                switch(i)
+                {
+                    case 0://mon
+                        total = worker.weekScore[i];
+                        total += worker.mon.Count;
+                        break;
+                    case 1://tues
+                        total = worker.weekScore[i];
+                        total += worker.tues.Count;
+                        break;
+                    case 2://wednes
+                        total = worker.weekScore[i];
+                        total += worker.wednes.Count;
+                        break;
+                    case 3://thurs
+                        total = worker.weekScore[i];
+                        total += worker.thurs.Count;
+                        break;
+                    case 4://fri
+                        total = worker.weekScore[i];
+                        total += worker.fri.Count;
+                        break;
+                    case 5://satur
+                        total = worker.weekScore[i];
+                        total += worker.satur.Count;
+                        break;
+                    case 6://sun
+                        total = worker.weekScore[i];
+                        total += worker.sun.Count;
+                        break;
+                    case 7://holi
+                        total = worker.weekScore[i];
+                        total += worker.holi.Count;
+                        break;
+                }
+                worker.weekLastScore[i] = total;
+            }
+            return worker;
+        }
+
+        public static void WorkerListLastScoreCal()
+        {
+            for (int i=0; i<currentWorkerList.workerList.Count; i++)
+            {
+                currentWorkerList.workerList[i] = WorkerLastScoreCalculate(currentWorkerList.workerList[i]);
+            }
+        }
+        
     }
 }

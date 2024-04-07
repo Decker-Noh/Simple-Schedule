@@ -21,7 +21,6 @@ public class ScheduleHolidayItem : MonoBehaviour
             string dataString = myDate.ToString("yyyy-MM-dd");
             if (Main.currentSchedule.holidayTotal.Contains(dataString))
             {
-                Debug.Log("안들어오나?");
                 holiday = true;
                 textComponent.color = Color.blue;
             }

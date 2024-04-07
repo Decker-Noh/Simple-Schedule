@@ -34,6 +34,7 @@ public class WorkerManager : MonoBehaviour
 
         Worker worker = new Worker();
         worker._name = workerName.text;
+        worker.ID = Convert.ToInt32(DateTime.Now.ToString("MMddHHmmss"));
         if (newcomer.isOn)
         {
             //전 근무자들의 평균을 구하는 로직이 들어가야함.

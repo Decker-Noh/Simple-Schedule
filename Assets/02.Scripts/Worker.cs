@@ -5,6 +5,7 @@ namespace sgSchedule
     [Serializable]
     public class Worker
     {
+        public int ID;
         public string name;
         public List<int> weekScore = new List<int>()
         {
@@ -26,8 +27,27 @@ namespace sgSchedule
         public List<string> satur = new List<string>();
         public List<string> sun = new List<string>();
         public List<string> holi = new List<string>();
+        public int monResult = 0;
+        public int tuesResult = 0;
+        public int wednesResult = 0;
+        public int thursResult = 0;
+        public int friResult = 0;
+        public int saturResult = 0;
+        public int sunResult = 0;
+        public int holiResult = 0;
 
         public List<string> vacationData = new List<string>();
+        public List<int> weekLastScore = new List<int>()
+        {
+            0,//"mon"
+            0,//"tues"
+            0,//"wednes"
+            0,//"thurs"
+            0,//"fri"
+            0,//"satur"
+            0,//"sun"
+            0,//"holi"
+        };
         public string _name
         {
             get

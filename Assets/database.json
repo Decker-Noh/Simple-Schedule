@@ -1,7 +1,8 @@
 {
     "workerList": [
         {
-            "name": "",
+            "ID": 408004432,
+            "name": "1",
             "weekScore": [
                 0,
                 0,
@@ -13,291 +14,302 @@
                 0,
                 0
             ],
-            "mon": [],
-            "tues": [],
-            "wednes": [],
-            "thurs": [],
-            "fri": [],
-            "satur": [],
-            "sun": [],
-            "holi": [],
-            "vacationData": []
-        },
-        {
-            "name": "12",
-            "weekScore": [
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0
+            "mon": [
+                "2024-04-01"
             ],
-            "mon": [],
             "tues": [],
             "wednes": [],
-            "thurs": [],
-            "fri": [],
-            "satur": [],
-            "sun": [],
-            "holi": [],
-            "vacationData": []
-        },
-        {
-            "name": "12",
-            "weekScore": [
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0
+            "thurs": [
+                "2024-04-25"
             ],
-            "mon": [],
-            "tues": [],
-            "wednes": [],
-            "thurs": [],
-            "fri": [],
-            "satur": [],
-            "sun": [],
-            "holi": [],
-            "vacationData": []
-        },
-        {
-            "name": "노순건",
-            "weekScore": [
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0
+            "fri": [
+                "2024-04-19"
             ],
-            "mon": [],
-            "tues": [],
-            "wednes": [],
-            "thurs": [],
-            "fri": [],
             "satur": [],
-            "sun": [],
-            "holi": [],
-            "vacationData": []
-        },
-        {
-            "name": "강강강",
-            "weekScore": [
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0
+            "sun": [
+                "2024-04-07"
             ],
-            "mon": [],
-            "tues": [],
-            "wednes": [],
-            "thurs": [],
-            "fri": [],
-            "satur": [],
-            "sun": [],
-            "holi": [],
-            "vacationData": []
-        },
-        {
-            "name": "ㄷㄹㄷㅈㄹ",
-            "weekScore": [
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0
+            "holi": [
+                "2024-04-13"
             ],
-            "mon": [],
-            "tues": [],
-            "wednes": [],
-            "thurs": [],
-            "fri": [],
-            "satur": [],
-            "sun": [],
-            "holi": [],
-            "vacationData": []
-        },
-        {
-            "name": "ㄹㄷㄹㄷ",
-            "weekScore": [
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "mon": [],
-            "tues": [],
-            "wednes": [],
-            "thurs": [],
-            "fri": [],
-            "satur": [],
-            "sun": [],
-            "holi": [],
-            "vacationData": []
-        },
-        {
-            "name": "ㅇ륭ㄹㅍ",
-            "weekScore": [
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "mon": [],
-            "tues": [],
-            "wednes": [],
-            "thurs": [],
-            "fri": [],
-            "satur": [],
-            "sun": [],
-            "holi": [],
-            "vacationData": []
-        },
-        {
-            "name": "21312",
-            "weekScore": [
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "mon": [],
-            "tues": [],
-            "wednes": [],
-            "thurs": [],
-            "fri": [],
-            "satur": [],
-            "sun": [],
-            "holi": [],
-            "vacationData": []
-        },
-        {
-            "name": "22dqd",
-            "weekScore": [
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "mon": [],
-            "tues": [],
-            "wednes": [],
-            "thurs": [],
-            "fri": [],
-            "satur": [],
-            "sun": [],
-            "holi": [],
-            "vacationData": []
-        },
-        {
-            "name": "ㄹㄷㅊ",
-            "weekScore": [
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "mon": [],
-            "tues": [],
-            "wednes": [],
-            "thurs": [],
-            "fri": [],
-            "satur": [],
-            "sun": [],
-            "holi": [],
-            "vacationData": []
-        },
-        {
-            "name": "ㅈㅇ2",
-            "weekScore": [
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "mon": [],
-            "tues": [],
-            "wednes": [],
-            "thurs": [],
-            "fri": [],
-            "satur": [],
-            "sun": [],
-            "holi": [],
-            "vacationData": []
-        },
-        {
-            "name": "22211",
-            "weekScore": [
+            "monResult": 0,
+            "tuesResult": 0,
+            "wednesResult": 0,
+            "thursResult": 0,
+            "friResult": 0,
+            "saturResult": 0,
+            "sunResult": 0,
+            "holiResult": 0,
+            "vacationData": [],
+            "weekLastScore": [
                 1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                12
+                0,
+                0,
+                1,
+                1,
+                0,
+                1,
+                1
+            ]
+        },
+        {
+            "ID": 408004434,
+            "name": "2",
+            "weekScore": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
             ],
-            "mon": [],
-            "tues": [],
+            "mon": [
+                "2024-04-08",
+                "2024-04-29"
+            ],
+            "tues": [
+                "2024-04-02"
+            ],
             "wednes": [],
             "thurs": [],
             "fri": [],
             "satur": [],
+            "sun": [
+                "2024-04-14"
+            ],
+            "holi": [
+                "2024-04-20"
+            ],
+            "monResult": 0,
+            "tuesResult": 0,
+            "wednesResult": 0,
+            "thursResult": 0,
+            "friResult": 0,
+            "saturResult": 0,
+            "sunResult": 0,
+            "holiResult": 0,
+            "vacationData": [],
+            "weekLastScore": [
+                2,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                1
+            ]
+        },
+        {
+            "ID": 408004436,
+            "name": "3",
+            "weekScore": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "mon": [
+                "2024-04-15"
+            ],
+            "tues": [
+                "2024-04-09"
+            ],
+            "wednes": [
+                "2024-04-03"
+            ],
+            "thurs": [],
+            "fri": [],
+            "satur": [],
+            "sun": [
+                "2024-04-21"
+            ],
+            "holi": [
+                "2024-04-24"
+            ],
+            "monResult": 0,
+            "tuesResult": 0,
+            "wednesResult": 0,
+            "thursResult": 0,
+            "friResult": 0,
+            "saturResult": 0,
+            "sunResult": 0,
+            "holiResult": 0,
+            "vacationData": [],
+            "weekLastScore": [
+                1,
+                1,
+                1,
+                0,
+                0,
+                0,
+                1,
+                1
+            ]
+        },
+        {
+            "ID": 408004438,
+            "name": "4",
+            "weekScore": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "mon": [
+                "2024-04-22"
+            ],
+            "tues": [
+                "2024-04-16"
+            ],
+            "wednes": [
+                "2024-04-10"
+            ],
+            "thurs": [
+                "2024-04-04"
+            ],
+            "fri": [],
+            "satur": [],
             "sun": [],
+            "holi": [
+                "2024-04-26"
+            ],
+            "monResult": 0,
+            "tuesResult": 0,
+            "wednesResult": 0,
+            "thursResult": 0,
+            "friResult": 0,
+            "saturResult": 0,
+            "sunResult": 0,
+            "holiResult": 0,
+            "vacationData": [],
+            "weekLastScore": [
+                1,
+                1,
+                1,
+                1,
+                0,
+                0,
+                0,
+                1
+            ]
+        },
+        {
+            "ID": 408004440,
+            "name": "5",
+            "weekScore": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "mon": [],
+            "tues": [
+                "2024-04-23"
+            ],
+            "wednes": [
+                "2024-04-17"
+            ],
+            "thurs": [
+                "2024-04-11"
+            ],
+            "fri": [
+                "2024-04-05"
+            ],
+            "satur": [],
+            "sun": [
+                "2024-04-28"
+            ],
             "holi": [],
-            "vacationData": []
+            "monResult": 0,
+            "tuesResult": 0,
+            "wednesResult": 0,
+            "thursResult": 0,
+            "friResult": 0,
+            "saturResult": 0,
+            "sunResult": 0,
+            "holiResult": 0,
+            "vacationData": [],
+            "weekLastScore": [
+                0,
+                1,
+                1,
+                1,
+                1,
+                0,
+                1,
+                0
+            ]
+        },
+        {
+            "ID": 408004442,
+            "name": "6",
+            "weekScore": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "mon": [],
+            "tues": [
+                "2024-04-30"
+            ],
+            "wednes": [],
+            "thurs": [
+                "2024-04-18"
+            ],
+            "fri": [
+                "2024-04-12"
+            ],
+            "satur": [
+                "2024-04-27"
+            ],
+            "sun": [],
+            "holi": [
+                "2024-04-06"
+            ],
+            "monResult": 0,
+            "tuesResult": 0,
+            "wednesResult": 0,
+            "thursResult": 0,
+            "friResult": 0,
+            "saturResult": 0,
+            "sunResult": 0,
+            "holiResult": 0,
+            "vacationData": [],
+            "weekLastScore": [
+                0,
+                1,
+                0,
+                1,
+                1,
+                1,
+                0,
+                1
+            ]
         }
     ]
 }
