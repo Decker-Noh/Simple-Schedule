@@ -23,9 +23,9 @@ public class MonthController : MonoBehaviour
 
     public void CreateSchedule()
     {
-        if(Main.currentWorkerList.workerList.Count == 0)
+        if(Main.currentWorkerList.workerList.Count <= 3)
         {
-            Main.AlertAction("근무자가 없습니다");
+            Main.AlertAction("근무자가 부족합니다");
             return;
         }
         int dayInMonth = DateTime.DaysInMonth(_dateTime.Year, _dateTime.Month);//월 일수 파악
