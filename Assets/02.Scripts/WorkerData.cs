@@ -23,6 +23,9 @@ public class WorkerData : MonoBehaviour
             tmpName.text = workerName;
         }
     }
+    private void Start() {
+        GetComponent<RectTransform>().localScale = new Vector3(1,1,1);
+    }
 
     public void ClickWorkerBtn()
     {

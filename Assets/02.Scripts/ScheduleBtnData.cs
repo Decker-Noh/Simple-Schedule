@@ -18,4 +18,8 @@ public class ScheduleBtnData : MonoBehaviour
             tmp_text.text = name;
         }
     }
+    private void Start()
+    {
+        GetComponent<RectTransform>().localScale = new Vector3(1,1,1);
+    }
 }

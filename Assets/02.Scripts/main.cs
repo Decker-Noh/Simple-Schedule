@@ -67,7 +67,7 @@ namespace sgSchedule
         }
         public static void SaveDataFile()
         {
-            
+            Debug.Log("저장됩니다");
             string json = JsonUtility.ToJson(currentWorkerList, true);
 
             File.WriteAllText(path, json);
@@ -137,10 +137,9 @@ namespace sgSchedule
                 currentWorkerList.workerList[i] = WorkerLastScoreCalculate(currentWorkerList.workerList[i]);
             }
         }
-        public void QuitGame()
+        private void OnApplicationQuit() 
         {
-            Application.Quit();
+            SaveDataFile();
         }
-        
     }
 }
