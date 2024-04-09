@@ -25,7 +25,6 @@ public class WorkerDetail : MonoBehaviour
     {
         Worker target = Main.currentWorkerList.workerList[index];
         _name.text = target._name;
-        Debug.Log("연차 " + target.GetWeekScore("annual"));
         _annual.text = target.GetWeekScore("annual").ToString();
         mon.text = (target.GetWeekScore("mon") + target.mon.Count).ToString();
         tues.text = (target.GetWeekScore("tues") + target.tues.Count).ToString();

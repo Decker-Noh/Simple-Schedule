@@ -22,6 +22,7 @@ namespace sgSchedule {
         public static Action WorkerRegisterPannelAction;
         public static Action WorkerListPannelAction;
         public static Action<int> WorkerDetailPannelAction;
+        public static Action ChartUpdate;
         static string path;
         static string pathScehdule;
         public static WorkerList currentWorkerList;
@@ -77,8 +78,13 @@ namespace sgSchedule {
         }
         public void InitWorkerData () {
             WorkerList saveData = new WorkerList ();
+            Schedule saveSchedule = new Schedule ();
+            currentSchedule = saveSchedule;
+            currentWorkerList = saveData;
             string json = JsonUtility.ToJson (saveData, true);
             File.WriteAllText (path, json);
+            json = JsonUtility.ToJson (saveSchedule, true);
+            File.WriteAllText (pathScehdule, json);
 
         }
         public static Worker WorkerLastScoreCalculate (Worker worker) {

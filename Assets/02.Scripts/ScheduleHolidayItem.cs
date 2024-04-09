@@ -7,7 +7,8 @@ using System;
 public class ScheduleHolidayItem : MonoBehaviour
 {
     public Text textComponent;
-    DateTime myDate;
+    [HideInInspector]
+    public DateTime myDate;
     public bool holiday;
     public DateTime _myDate
     {

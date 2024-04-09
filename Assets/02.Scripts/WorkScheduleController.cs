@@ -39,6 +39,10 @@ public class WorkScheduleController : MonoBehaviour {
         Debug.Log (DateTime.Now);
 
     }
+    void Start()
+    {
+        Main.ChartUpdate += CreateCalendar;
+    }
     void OnEnable () {
         CreateCalendar ();
     }

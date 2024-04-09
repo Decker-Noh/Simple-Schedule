@@ -1,930 +1,161 @@
 {
     "holidayTotal": [
+        "2024-04-06",
+        "2024-04-12",
         "2024-04-13",
         "2024-04-20",
-        "2024-04-26",
-        "2024-04-24",
-        "2024-05-04",
-        "2024-06-14",
-        "2024-07-20",
-        "2024-04-12",
-        "2024-04-06"
+        "2024-04-27"
     ],
     "dayDataList": [
         {
             "day": "2024-04-01",
-            "worker": "1",
+            "worker": "3",
             "dayWeek": 0
         },
         {
             "day": "2024-04-02",
-            "worker": "2",
+            "worker": "3",
             "dayWeek": 1
         },
         {
             "day": "2024-04-03",
-            "worker": "3",
+            "worker": "4",
             "dayWeek": 2
         },
         {
             "day": "2024-04-04",
-            "worker": "4",
+            "worker": "5",
             "dayWeek": 3
         },
         {
             "day": "2024-04-05",
-            "worker": "5",
+            "worker": "6",
             "dayWeek": 4
         },
         {
             "day": "2024-04-06",
-            "worker": "6",
+            "worker": "7",
             "dayWeek": 7
         },
         {
             "day": "2024-04-07",
-            "worker": "1",
+            "worker": "8",
             "dayWeek": 6
         },
         {
             "day": "2024-04-08",
-            "worker": "2",
+            "worker": "3",
             "dayWeek": 0
         },
         {
             "day": "2024-04-09",
-            "worker": "3",
+            "worker": "4",
             "dayWeek": 1
         },
         {
             "day": "2024-04-10",
-            "worker": "4",
+            "worker": "5",
             "dayWeek": 2
         },
         {
             "day": "2024-04-11",
-            "worker": "5",
+            "worker": "4",
             "dayWeek": 3
         },
         {
             "day": "2024-04-12",
-            "worker": "6",
-            "dayWeek": 4
+            "worker": "7",
+            "dayWeek": 7
         },
         {
             "day": "2024-04-13",
-            "worker": "1",
+            "worker": "8",
             "dayWeek": 7
         },
         {
             "day": "2024-04-14",
-            "worker": "2",
+            "worker": "7",
             "dayWeek": 6
         },
         {
             "day": "2024-04-15",
-            "worker": "3",
+            "worker": "4",
             "dayWeek": 0
         },
         {
             "day": "2024-04-16",
-            "worker": "4",
+            "worker": "5",
             "dayWeek": 1
         },
         {
             "day": "2024-04-17",
-            "worker": "5",
+            "worker": "7",
             "dayWeek": 2
         },
         {
             "day": "2024-04-18",
-            "worker": "6",
+            "worker": "3",
             "dayWeek": 3
         },
         {
             "day": "2024-04-19",
-            "worker": "1",
+            "worker": "7",
             "dayWeek": 4
         },
         {
             "day": "2024-04-20",
-            "worker": "2",
+            "worker": "3",
             "dayWeek": 7
         },
         {
             "day": "2024-04-21",
-            "worker": "3",
+            "worker": "6",
             "dayWeek": 6
         },
         {
             "day": "2024-04-22",
-            "worker": "4",
+            "worker": "8",
             "dayWeek": 0
         },
         {
             "day": "2024-04-23",
-            "worker": "5",
+            "worker": "4",
             "dayWeek": 1
         },
         {
             "day": "2024-04-24",
             "worker": "3",
-            "dayWeek": 7
+            "dayWeek": 2
         },
         {
             "day": "2024-04-25",
-            "worker": "1",
+            "worker": "6",
             "dayWeek": 3
         },
         {
             "day": "2024-04-26",
-            "worker": "4",
-            "dayWeek": 7
+            "worker": "5",
+            "dayWeek": 4
         },
         {
             "day": "2024-04-27",
-            "worker": "6",
-            "dayWeek": 5
+            "worker": "3",
+            "dayWeek": 7
         },
         {
             "day": "2024-04-28",
-            "worker": "5",
+            "worker": "4",
             "dayWeek": 6
         },
         {
             "day": "2024-04-29",
-            "worker": "2",
+            "worker": "7",
             "dayWeek": 0
         },
         {
             "day": "2024-04-30",
-            "worker": "6",
+            "worker": "8",
             "dayWeek": 1
-        },
-        {
-            "day": "2024-05-01",
-            "worker": "1",
-            "dayWeek": 2
-        },
-        {
-            "day": "2024-05-02",
-            "worker": "2",
-            "dayWeek": 3
-        },
-        {
-            "day": "2024-05-03",
-            "worker": "3",
-            "dayWeek": 4
-        },
-        {
-            "day": "2024-05-04",
-            "worker": "4",
-            "dayWeek": 5
-        },
-        {
-            "day": "2024-05-05",
-            "worker": "6",
-            "dayWeek": 6
-        },
-        {
-            "day": "2024-05-06",
-            "worker": "5",
-            "dayWeek": 0
-        },
-        {
-            "day": "2024-05-07",
-            "worker": "1",
-            "dayWeek": 1
-        },
-        {
-            "day": "2024-05-08",
-            "worker": "2",
-            "dayWeek": 2
-        },
-        {
-            "day": "2024-05-09",
-            "worker": "3",
-            "dayWeek": 3
-        },
-        {
-            "day": "2024-05-10",
-            "worker": "4",
-            "dayWeek": 4
-        },
-        {
-            "day": "2024-05-11",
-            "worker": "5",
-            "dayWeek": 5
-        },
-        {
-            "day": "2024-05-12",
-            "worker": "6",
-            "dayWeek": 6
-        },
-        {
-            "day": "2024-05-13",
-            "worker": "1",
-            "dayWeek": 0
-        },
-        {
-            "day": "2024-05-14",
-            "worker": "2",
-            "dayWeek": 1
-        },
-        {
-            "day": "2024-05-15",
-            "worker": "6",
-            "dayWeek": 2
-        },
-        {
-            "day": "2024-05-16",
-            "worker": "3",
-            "dayWeek": 3
-        },
-        {
-            "day": "2024-05-17",
-            "worker": "2",
-            "dayWeek": 4
-        },
-        {
-            "day": "2024-05-18",
-            "worker": "1",
-            "dayWeek": 5
-        },
-        {
-            "day": "2024-05-19",
-            "worker": "4",
-            "dayWeek": 6
-        },
-        {
-            "day": "2024-05-20",
-            "worker": "6",
-            "dayWeek": 0
-        },
-        {
-            "day": "2024-05-21",
-            "worker": "5",
-            "dayWeek": 1
-        },
-        {
-            "day": "2024-05-22",
-            "worker": "3",
-            "dayWeek": 2
-        },
-        {
-            "day": "2024-05-23",
-            "worker": "4",
-            "dayWeek": 3
-        },
-        {
-            "day": "2024-05-24",
-            "worker": "5",
-            "dayWeek": 4
-        },
-        {
-            "day": "2024-05-25",
-            "worker": "2",
-            "dayWeek": 5
-        },
-        {
-            "day": "2024-05-26",
-            "worker": "1",
-            "dayWeek": 6
-        },
-        {
-            "day": "2024-05-27",
-            "worker": "3",
-            "dayWeek": 0
-        },
-        {
-            "day": "2024-05-28",
-            "worker": "4",
-            "dayWeek": 1
-        },
-        {
-            "day": "2024-05-29",
-            "worker": "5",
-            "dayWeek": 2
-        },
-        {
-            "day": "2024-05-30",
-            "worker": "6",
-            "dayWeek": 3
-        },
-        {
-            "day": "2024-05-31",
-            "worker": "1",
-            "dayWeek": 4
-        },
-        {
-            "day": "2024-06-01",
-            "worker": "3",
-            "dayWeek": 5
-        },
-        {
-            "day": "2024-06-02",
-            "worker": "2",
-            "dayWeek": 6
-        },
-        {
-            "day": "2024-06-03",
-            "worker": "4",
-            "dayWeek": 0
-        },
-        {
-            "day": "2024-06-04",
-            "worker": "6",
-            "dayWeek": 1
-        },
-        {
-            "day": "2024-06-05",
-            "worker": "1",
-            "dayWeek": 2
-        },
-        {
-            "day": "2024-06-06",
-            "worker": "5",
-            "dayWeek": 3
-        },
-        {
-            "day": "2024-06-07",
-            "worker": "2",
-            "dayWeek": 4
-        },
-        {
-            "day": "2024-06-08",
-            "worker": "3",
-            "dayWeek": 5
-        },
-        {
-            "day": "2024-06-09",
-            "worker": "4",
-            "dayWeek": 6
-        },
-        {
-            "day": "2024-06-10",
-            "worker": "5",
-            "dayWeek": 0
-        },
-        {
-            "day": "2024-06-11",
-            "worker": "1",
-            "dayWeek": 1
-        },
-        {
-            "day": "2024-06-12",
-            "worker": "6",
-            "dayWeek": 2
-        },
-        {
-            "day": "2024-06-13",
-            "worker": "2",
-            "dayWeek": 3
-        },
-        {
-            "day": "2024-06-14",
-            "worker": "3",
-            "dayWeek": 4
-        },
-        {
-            "day": "2024-06-15",
-            "worker": "4",
-            "dayWeek": 5
-        },
-        {
-            "day": "2024-06-16",
-            "worker": "5",
-            "dayWeek": 6
-        },
-        {
-            "day": "2024-06-17",
-            "worker": "6",
-            "dayWeek": 0
-        },
-        {
-            "day": "2024-06-18",
-            "worker": "3",
-            "dayWeek": 1
-        },
-        {
-            "day": "2024-06-19",
-            "worker": "2",
-            "dayWeek": 2
-        },
-        {
-            "day": "2024-06-20",
-            "worker": "1",
-            "dayWeek": 3
-        },
-        {
-            "day": "2024-06-21",
-            "worker": "4",
-            "dayWeek": 4
-        },
-        {
-            "day": "2024-06-22",
-            "worker": "5",
-            "dayWeek": 5
-        },
-        {
-            "day": "2024-06-23",
-            "worker": "3",
-            "dayWeek": 6
-        },
-        {
-            "day": "2024-06-24",
-            "worker": "6",
-            "dayWeek": 0
-        },
-        {
-            "day": "2024-06-25",
-            "worker": "1",
-            "dayWeek": 1
-        },
-        {
-            "day": "2024-06-26",
-            "worker": "4",
-            "dayWeek": 2
-        },
-        {
-            "day": "2024-06-27",
-            "worker": "2",
-            "dayWeek": 3
-        },
-        {
-            "day": "2024-06-28",
-            "worker": "6",
-            "dayWeek": 4
-        },
-        {
-            "day": "2024-06-29",
-            "worker": "1",
-            "dayWeek": 5
-        },
-        {
-            "day": "2024-06-30",
-            "worker": "5",
-            "dayWeek": 6
-        },
-        {
-            "day": "2024-07-01",
-            "worker": "2",
-            "dayWeek": 0
-        },
-        {
-            "day": "2024-07-02",
-            "worker": "3",
-            "dayWeek": 1
-        },
-        {
-            "day": "2024-07-03",
-            "worker": "4",
-            "dayWeek": 2
-        },
-        {
-            "day": "2024-07-04",
-            "worker": "5",
-            "dayWeek": 3
-        },
-        {
-            "day": "2024-07-05",
-            "worker": "6",
-            "dayWeek": 4
-        },
-        {
-            "day": "2024-07-06",
-            "worker": "2",
-            "dayWeek": 5
-        },
-        {
-            "day": "2024-07-07",
-            "worker": "1",
-            "dayWeek": 6
-        },
-        {
-            "day": "2024-07-08",
-            "worker": "3",
-            "dayWeek": 0
-        },
-        {
-            "day": "2024-07-09",
-            "worker": "4",
-            "dayWeek": 1
-        },
-        {
-            "day": "2024-07-10",
-            "worker": "5",
-            "dayWeek": 2
-        },
-        {
-            "day": "2024-07-11",
-            "worker": "6",
-            "dayWeek": 3
-        },
-        {
-            "day": "2024-07-12",
-            "worker": "1",
-            "dayWeek": 4
-        },
-        {
-            "day": "2024-07-13",
-            "worker": "2",
-            "dayWeek": 5
-        },
-        {
-            "day": "2024-07-14",
-            "worker": "3",
-            "dayWeek": 6
-        },
-        {
-            "day": "2024-07-15",
-            "worker": "4",
-            "dayWeek": 0
-        },
-        {
-            "day": "2024-07-16",
-            "worker": "5",
-            "dayWeek": 1
-        },
-        {
-            "day": "2024-07-17",
-            "worker": "6",
-            "dayWeek": 2
-        },
-        {
-            "day": "2024-07-18",
-            "worker": "1",
-            "dayWeek": 3
-        },
-        {
-            "day": "2024-07-19",
-            "worker": "2",
-            "dayWeek": 4
-        },
-        {
-            "day": "2024-07-20",
-            "worker": "6",
-            "dayWeek": 5
-        },
-        {
-            "day": "2024-07-21",
-            "worker": "4",
-            "dayWeek": 6
-        },
-        {
-            "day": "2024-07-22",
-            "worker": "5",
-            "dayWeek": 0
-        },
-        {
-            "day": "2024-07-23",
-            "worker": "2",
-            "dayWeek": 1
-        },
-        {
-            "day": "2024-07-24",
-            "worker": "3",
-            "dayWeek": 2
-        },
-        {
-            "day": "2024-07-25",
-            "worker": "4",
-            "dayWeek": 3
-        },
-        {
-            "day": "2024-07-26",
-            "worker": "5",
-            "dayWeek": 4
-        },
-        {
-            "day": "2024-07-27",
-            "worker": "1",
-            "dayWeek": 5
-        },
-        {
-            "day": "2024-07-28",
-            "worker": "6",
-            "dayWeek": 6
-        },
-        {
-            "day": "2024-07-29",
-            "worker": "3",
-            "dayWeek": 0
-        },
-        {
-            "day": "2024-07-30",
-            "worker": "1",
-            "dayWeek": 1
-        },
-        {
-            "day": "2024-07-31",
-            "worker": "2",
-            "dayWeek": 2
-        },
-        {
-            "day": "2024-08-01",
-            "worker": "3",
-            "dayWeek": 3
-        },
-        {
-            "day": "2024-08-02",
-            "worker": "4",
-            "dayWeek": 4
-        },
-        {
-            "day": "2024-08-03",
-            "worker": "5",
-            "dayWeek": 5
-        },
-        {
-            "day": "2024-08-04",
-            "worker": "2",
-            "dayWeek": 6
-        },
-        {
-            "day": "2024-08-05",
-            "worker": "1",
-            "dayWeek": 0
-        },
-        {
-            "day": "2024-08-06",
-            "worker": "6",
-            "dayWeek": 1
-        },
-        {
-            "day": "2024-08-07",
-            "worker": "3",
-            "dayWeek": 2
-        },
-        {
-            "day": "2024-08-08",
-            "worker": "4",
-            "dayWeek": 3
-        },
-        {
-            "day": "2024-08-09",
-            "worker": "5",
-            "dayWeek": 4
-        },
-        {
-            "day": "2024-08-10",
-            "worker": "6",
-            "dayWeek": 5
-        },
-        {
-            "day": "2024-08-11",
-            "worker": "1",
-            "dayWeek": 6
-        },
-        {
-            "day": "2024-08-12",
-            "worker": "2",
-            "dayWeek": 0
-        },
-        {
-            "day": "2024-08-13",
-            "worker": "3",
-            "dayWeek": 1
-        },
-        {
-            "day": "2024-08-14",
-            "worker": "1",
-            "dayWeek": 2
-        },
-        {
-            "day": "2024-08-15",
-            "worker": "5",
-            "dayWeek": 3
-        },
-        {
-            "day": "2024-08-16",
-            "worker": "3",
-            "dayWeek": 4
-        },
-        {
-            "day": "2024-08-17",
-            "worker": "4",
-            "dayWeek": 5
-        },
-        {
-            "day": "2024-08-18",
-            "worker": "6",
-            "dayWeek": 6
-        },
-        {
-            "day": "2024-08-19",
-            "worker": "5",
-            "dayWeek": 0
-        },
-        {
-            "day": "2024-08-20",
-            "worker": "2",
-            "dayWeek": 1
-        },
-        {
-            "day": "2024-08-21",
-            "worker": "4",
-            "dayWeek": 2
-        },
-        {
-            "day": "2024-08-22",
-            "worker": "6",
-            "dayWeek": 3
-        },
-        {
-            "day": "2024-08-23",
-            "worker": "1",
-            "dayWeek": 4
-        },
-        {
-            "day": "2024-08-24",
-            "worker": "3",
-            "dayWeek": 5
-        },
-        {
-            "day": "2024-08-25",
-            "worker": "2",
-            "dayWeek": 6
-        },
-        {
-            "day": "2024-08-26",
-            "worker": "4",
-            "dayWeek": 0
-        },
-        {
-            "day": "2024-08-27",
-            "worker": "5",
-            "dayWeek": 1
-        },
-        {
-            "day": "2024-08-28",
-            "worker": "6",
-            "dayWeek": 2
-        },
-        {
-            "day": "2024-08-29",
-            "worker": "1",
-            "dayWeek": 3
-        },
-        {
-            "day": "2024-08-30",
-            "worker": "2",
-            "dayWeek": 4
-        },
-        {
-            "day": "2024-08-31",
-            "worker": "3",
-            "dayWeek": 5
-        },
-        {
-            "day": "2024-09-01",
-            "worker": "4",
-            "dayWeek": 6
-        },
-        {
-            "day": "2024-09-02",
-            "worker": "6",
-            "dayWeek": 0
-        },
-        {
-            "day": "2024-09-03",
-            "worker": "5",
-            "dayWeek": 1
-        },
-        {
-            "day": "2024-09-04",
-            "worker": "1",
-            "dayWeek": 2
-        },
-        {
-            "day": "2024-09-05",
-            "worker": "3",
-            "dayWeek": 3
-        },
-        {
-            "day": "2024-09-06",
-            "worker": "4",
-            "dayWeek": 4
-        },
-        {
-            "day": "2024-09-07",
-            "worker": "5",
-            "dayWeek": 5
-        },
-        {
-            "day": "2024-09-08",
-            "worker": "3",
-            "dayWeek": 6
-        },
-        {
-            "day": "2024-09-09",
-            "worker": "1",
-            "dayWeek": 0
-        },
-        {
-            "day": "2024-09-10",
-            "worker": "6",
-            "dayWeek": 1
-        },
-        {
-            "day": "2024-09-11",
-            "worker": "5",
-            "dayWeek": 2
-        },
-        {
-            "day": "2024-09-12",
-            "worker": "4",
-            "dayWeek": 3
-        },
-        {
-            "day": "2024-09-13",
-            "worker": "6",
-            "dayWeek": 4
-        },
-        {
-            "day": "2024-09-14",
-            "worker": "1",
-            "dayWeek": 5
-        },
-        {
-            "day": "2024-09-15",
-            "worker": "5",
-            "dayWeek": 6
-        },
-        {
-            "day": "2024-09-16",
-            "worker": "3",
-            "dayWeek": 0
-        },
-        {
-            "day": "2024-09-17",
-            "worker": "4",
-            "dayWeek": 1
-        },
-        {
-            "day": "2024-09-18",
-            "worker": "6",
-            "dayWeek": 2
-        },
-        {
-            "day": "2024-09-19",
-            "worker": "1",
-            "dayWeek": 3
-        },
-        {
-            "day": "2024-09-20",
-            "worker": "3",
-            "dayWeek": 4
-        },
-        {
-            "day": "2024-09-21",
-            "worker": "4",
-            "dayWeek": 5
-        },
-        {
-            "day": "2024-09-22",
-            "worker": "5",
-            "dayWeek": 6
-        },
-        {
-            "day": "2024-09-23",
-            "worker": "6",
-            "dayWeek": 0
-        },
-        {
-            "day": "2024-09-24",
-            "worker": "1",
-            "dayWeek": 1
-        },
-        {
-            "day": "2024-09-25",
-            "worker": "3",
-            "dayWeek": 2
-        },
-        {
-            "day": "2024-09-26",
-            "worker": "5",
-            "dayWeek": 3
-        },
-        {
-            "day": "2024-09-27",
-            "worker": "4",
-            "dayWeek": 4
-        },
-        {
-            "day": "2024-09-28",
-            "worker": "6",
-            "dayWeek": 5
-        },
-        {
-            "day": "2024-09-29",
-            "worker": "1",
-            "dayWeek": 6
-        },
-        {
-            "day": "2024-09-30",
-            "worker": "4",
-            "dayWeek": 0
         }
     ]
 }
