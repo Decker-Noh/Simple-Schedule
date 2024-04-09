@@ -349,6 +349,48 @@
                 1,
                 1
             ]
+        },
+        {
+            "ID": 410040109,
+            "name": "kk",
+            "weekScore": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "mon": [],
+            "tues": [],
+            "wednes": [],
+            "thurs": [],
+            "fri": [],
+            "satur": [],
+            "sun": [],
+            "holi": [],
+            "monResult": 0,
+            "tuesResult": 0,
+            "wednesResult": 0,
+            "thursResult": 0,
+            "friResult": 0,
+            "saturResult": 0,
+            "sunResult": 0,
+            "holiResult": 0,
+            "vacationData": [],
+            "weekLastScore": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ]
         }
     ]
 }

@@ -31,7 +31,14 @@ public class WorkerManager : MonoBehaviour
             Main.AlertAction("이름을 입력하세요");
             return;
         }
-
+        for (int i=0; i<Main.currentWorkerList.workerList.Count; i++)
+        {
+            if (Main.currentWorkerList.workerList[i].name == workerName.text)
+            {
+                Main.AlertAction("같은 이름의 근무자가 존재합니다.");
+                return;
+            }
+        }
         Worker worker = new Worker();
         worker._name = workerName.text;
         worker.ID = Convert.ToInt32(DateTime.Now.ToString("MMddHHmmss"));
