@@ -25,6 +25,7 @@ namespace sgSchedule {
         static string path;
         static string pathScehdule;
         public static WorkerList currentWorkerList;
+        public static Action UIClickAction;
         public static Schedule currentSchedule;
         // Start is called before the first frame update
         void Start () {
@@ -132,4 +133,5 @@ namespace sgSchedule {
             SaveDataFile ();
         }
     }
+
 }
